@@ -1,6 +1,8 @@
-	<footer>
-	<hr>
-	<p>
-	  2015年后的文章禁止私自转载，谢谢。
-	</p>
-	</footer>
+ {% if page.license != false %}
+      <footer>
+	<hr/>
+	   <p>
+          2015年后的文章禁止私自转载，谢谢。
+        </p>
+      </footer>
+ {% endif %}
