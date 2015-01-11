@@ -31,7 +31,7 @@ On 64-bit machines:
 
 ### Relogin and you should see the motd (Unix, Message of the Day) like following
 
-```
+
 	Last login: Thu Dec 18 01:39:15 2014 from 10.x.x.x
 	Welcome to the perfSONAR Toolkit v3.4.1
 	You may create accounts to manage this host through the web interface by running the following a
@@ -39,7 +39,7 @@ On 64-bit machines:
 	The web interface should be available at:
 	https://yourmachineip/toolkit 
 	[root@localhost ~]# 
-```
+
 
 ### Add an account to manage perfSONAR Toolkit by the motd
 
