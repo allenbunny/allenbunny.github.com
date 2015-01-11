@@ -15,6 +15,7 @@ On 32-bit machines:
 
 ```
 	rpm -ivh http://linux.mirrors.es.net/fedora-epel/6/i386/epel-release-6-8.noarch.rpm
+	
 	rpm -ivh http://software.internet2.edu/rpms/el6/i386/main/RPMS/Internet2-repo-0.5-3.noarch.rpm
 ```
 
