@@ -25,9 +25,16 @@
       {% assign tags_list = page.tags %}
       {% include JB/tags_list %}
     </ul>
-  {% endunless %}  
-    <hr>
-	{% include widgets/contentfooter %}
+  {% endunless %} 
+  
+
+  {% if page.license != false %}
+      <footer>
+	   <p>
+          2015年后的文章禁止私自转载，谢谢。
+        </p>
+      </footer>
+ {% endif %}
     <hr>
     <div class="pagination">
       <ul>
