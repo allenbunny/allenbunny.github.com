@@ -9,9 +9,6 @@
     </div>
     <div class="content">
       {{ content }}
-
-	{% include widgets/contentfooter %}
-
     </div>
  
   {% unless page.categories == empty %}
@@ -29,7 +26,8 @@
       {% include JB/tags_list %}
     </ul>
   {% endunless %}  
-
+    <hr>
+	{% include widgets/contentfooter %}
     <hr>
     <div class="pagination">
       <ul>
