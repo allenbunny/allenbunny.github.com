@@ -10,7 +10,15 @@
     <div class="content">
       {{ content }}
     </div>
-
+ 
+ {% if page.license != false %}
+      <footer>
+        <p>
+          2015年后的文章禁止私自转载，谢谢。
+        </p>
+      </footer>
+ {% endif %}
+	  
   {% unless page.categories == empty %}
     <ul class="tag_box inline">
       <li><i class="icon-folder-open"></i></li>
